@@ -17,7 +17,7 @@ mongoose.connect("mongodb+srv://daviddangtim:crudbackend@cluster0.u5drsmj.mongod
         console.log('Server running on port 3000!');
     });
 })
-// Catch if connection failes
+// Catch if connection fails
 .catch(function (){
     console.log("Connection failed");
 })
